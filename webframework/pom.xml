@@ -1,0 +1,28 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>br.com.technation</groupId>
+	<artifactId>webframework</artifactId>
+	<packaging>jar</packaging>
+	<name>Technation - WebFramework</name>
+	<parent>
+		<groupId>br.com.technation.maven</groupId>
+		<artifactId>basic-jpa-module</artifactId>
+		<version>1.0</version>
+		<relativePath>../maven-modules/basic-jpa-module.xml</relativePath>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee</artifactId>
+			<version>6.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>javax.persistence</artifactId>
+			<version>2.0.0</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>
